@@ -25,6 +25,6 @@ export class MyComponent {
   private getText = (): string => format(this.first, this.middle, this.last);
 
   render() {
-    return <div>Hi, World! I'm {this.getText()}</div>;
+    return <div>Salut, World! I'm {this.getText()}</div>;
   }
 }
